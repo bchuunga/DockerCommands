@@ -1,1 +1,2 @@
-#Commands
+# Build image from Dockerfile
+docker build -t yourtag/imagename .

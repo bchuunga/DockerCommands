@@ -1,2 +1,5 @@
 # Build image from Dockerfile
 docker build -t yourtag/imagename .
+
+# Run image as active container
+docker run -p 8080:80 yourtag/imagename
